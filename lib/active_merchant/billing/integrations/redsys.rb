@@ -17,7 +17,7 @@ module ActiveMerchant #:nodoc:
         mattr_accessor :operations_test_url
         self.operations_test_url = "https://sis-t.redsys.es:25443/sis/operaciones"
         mattr_accessor :operations_production_url
-        self.operations_production_url = "https://sis.redsys.es/sis/operaciones"
+        self.operations_production_url = "https://sis.redsys.es/sis/services/SerClsWSEntrada"
 
 
         def self.service_url 
